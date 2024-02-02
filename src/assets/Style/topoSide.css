@@ -2,8 +2,6 @@
 /*Configurações do topo side*/
 
 .topo__side .container__leaude{
-    width: 100%;
-    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

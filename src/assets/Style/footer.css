@@ -1,0 +1,11 @@
+/*Configurações do footer*/
+
+.footer__rodape .flex{
+    height: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 4%;
+    background-color: rgb(155, 255, 180);
+}
+
