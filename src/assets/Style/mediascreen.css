@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 1150px){
+    /*Configuração geral*/
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo__side .container__leaude{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .topo__side .container__leaude .leaude__conteudo .leaude{
+       width: 300px;
+       display: flex;
+       justify-content:center;
+       text-align: center;
+       align-items: center;
+
+        
+    }
+
+    .topo__side .container__leaude .leaude__conteudo .leaude h2{
+        font-size: 40px;
+        text-align: center;
+        margin:-5rem 5rem 5px 0;
+    }
+
+    .topo__side .container__leaude .leaude__conteudo .leaude p{
+        text-align: center;
+        margin-right: 5rem;
+    }
+
+    .topo__side .container__leaude .leaude__conteudo .leaude span{
+        text-align: center;
+        margin: 6px 5rem 0 0;
+    }
+
+    .topo__side .container__leaude .leuade__img img{
+         width: 100%;
+    }
+
+}

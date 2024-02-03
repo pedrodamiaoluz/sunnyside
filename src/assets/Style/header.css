@@ -8,6 +8,7 @@
 body{
     background-color: #fff;
     height: 100vh;
+    font-family: 'Roboto', sem serifa;
 }
 
 .container{
@@ -33,13 +34,14 @@ header > .container{
 
 .header__logo{
     font-size: 30px;
+    font-weight: 900;
     color: #fff;
 }
 
 header a{
     text-decoration: none;
-    color: #fff;
-    font-weight: 900;
+    color: #ffffffc1;
+    font-weight: 500;
     display: inline-block;
     transition: .2s;
 }
@@ -47,6 +49,7 @@ header a{
 header a:hover{
     transform: scale(1.10);
     color: #fff000;
+    font-weight: 800;
 }
 
 

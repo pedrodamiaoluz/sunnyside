@@ -1,11 +1,45 @@
 /*Configurações do footer*/
 
-.footer__rodape .flex{
-    height: 300px;
-    flex-direction: row;
+.footer__conteudo .flex{
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 4%;
+}
+
+.footer__conteudo{
+    margin: -5px 0;
+    padding: 40px;
     background-color: rgb(155, 255, 180);
 }
+
+.footer__conteudo h2{
+    color: rgb(56, 78, 35);
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.footer__conteudo nav ul{
+    list-style-type: none;
+}
+
+.footer__conteudo nav ul li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.footer__conteudo nav ul li a{
+    text-decoration: none;
+    color: rgb(85, 105, 65);
+    font-weight: 700;
+}
+
+.footer__conteudo .icon img{
+      margin: 40px 20px;
+      cursor: pointer;
+}
+
+.footer__conteudo .icon a{
+   text-decoration: none;
+}
+
 

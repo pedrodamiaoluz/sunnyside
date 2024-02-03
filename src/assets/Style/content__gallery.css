@@ -1,6 +1,7 @@
 /*configuraões content__gallery*/
 
 .gallery img{
-    width: 337.7px;
-    height: 400px;
+    /* width: 337.7px; */
+    width: 109%;
+    height: 70vh;
 }
