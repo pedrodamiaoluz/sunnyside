@@ -1,7 +1,9 @@
 /*configuraões content__gallery*/
+.content__gallery .gallery__fotos {
+      display: flex;
+}
 
 .gallery img{
-    /* width: 337.7px; */
-    width: 109%;
+    width: 337.7px;
     height: 70vh;
 }

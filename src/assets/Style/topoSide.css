@@ -8,18 +8,20 @@
 
 .topo__side .container__leaude .leaude__conteudo{
       background-color: #fff;
-      width: 675px;
+      width: 100%;
       height: 550px;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
       padding: 40px 20px;
 }
 
 .container__leaude .leaude__conteudo .leaude{
-    /* background-color: #fff;
-    width: 500px; */
-    display: flex;
+    background-color: #fff;
+    width: 500px;
+    display: flex; 
     flex-direction: column;
-    margin: 8rem 4rem;
-    padding: 30px 20px;
     gap: 20px;
 }
 
@@ -38,43 +40,57 @@
 }
 
 .container__leaude .leuade__img img{
+    background-color: #fff;
     width: 675px;
-    height: 550px;
-    
+    height: 550px;  
 }
 
 .container__leaude .leaude__photography{
     background: no-repeat center/cover url('../images/desktop/image-graphic-design.jpg');
+    width: 100%;
     height: 550px;
-    padding: 40px 20px;
     margin-top: -5px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 .container__leaude .leaude__photography .leaude__graphic-design, .conteudo{
     background-color: transparent;
     width: 400px;
-    margin: 20rem 6rem 0 6rem;
+    margin: 20rem 6rem 3rem 6rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; 
     gap: 20px;
+    
 }
 
 .container__leaude .leaude__graphic-design{
     background: no-repeat center/cover url('../images/desktop/image-photography.jpg');
+    width: 100%;
     height: 550px;
-    padding: 40px 20px;
     margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.leaude__photography .leaude__graphic-design, h3{
+.leaude__photography h3{
     text-align: center;
     font-size: 22px;
     font-weight: 900;
+    color: rgb(9, 15, 4);
+}
+
+.leaude__graphic-design h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    color: rgb(4, 4, 26);
 }
 
 .leaude__photography .leaude__graphic-design, p{
     text-align: justify;
     font-size: 15px;
+    text-align: center;
 }
