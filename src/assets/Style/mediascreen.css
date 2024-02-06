@@ -16,6 +16,23 @@
     }
      
     /*Configuração topo__side*/
+
+    .topo__side .container__img img{
+        
+        height: 100vh;
+    }
+
+    .topo__side .container__img .titulo h1{
+        
+        text-align: justify;
+        width: 200px;
+        font-size: 2rem;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        transform: translate(var(-50% -50%));
+    }
+
     .topo__side .container__leaude{
         display: flex;
         flex-direction: column;
