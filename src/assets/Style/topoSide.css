@@ -1,19 +1,25 @@
 
 /*Configurações do topo side*/
 
-/* .topo__side .container__img img{
-     width: 100%;
-     margin-bottom: -5px;
-} */
 
-/* .topo__side .container__img .titulo h1{
+ /*.topo__side .container__img img{
+     max-width: 100%;
+     margin-bottom: -5px;
+}*/
+
+/*.topo__side .container .container__img{
+    background: no-repeat center/cover url('../images/desktop/image-header.jpg');
+    width: 100%;
+    height: 100vh;
+}*/
+
+
+/*.topo__side .container .container__img .titulo h1{
     color: #fff;
     font-size: 4rem;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(var(-50% -50%));
-} */
+    text-align: center;
+    padding-top: 8rem;
+}*/
 
 .topo__side .container__leaude{
     display: grid;

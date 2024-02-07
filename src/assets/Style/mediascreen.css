@@ -14,24 +14,25 @@
     header .header__button button{
         display: none;
     }
-     
+
     /*Configuração topo__side*/
 
-    .topo__side .container__img img{
+    .topo__side.container .container__img{
+       width: 100%;
         
-        height: 100vh;
     }
 
-    .topo__side .container__img .titulo h1{
+    /*.topo__side .container__img .titulo h1{
         
-        text-align: justify;
+     text-align: justify;
         width: 200px;
         font-size: 2rem;
         position: absolute;
         top: 20%;
         left: 5%;
-        transform: translate(var(-50% -50%));
-    }
+        transform: translate(var(-50% -50%)); 
+        font-size: 30px;
+    }*/
 
     .topo__side .container__leaude{
         display: flex;
