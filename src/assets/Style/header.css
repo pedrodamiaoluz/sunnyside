@@ -20,15 +20,10 @@ body{
 header{
     
 }
-
-
 header > .container{
-    background: no-repeat center/cover url('../images/desktop/image-header.jpg');
-    width: 100%;
-    height: 100vh;
+    background-color: red;
     padding: 30px 2%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     justify-items: center;
 }

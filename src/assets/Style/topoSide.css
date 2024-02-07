@@ -7,11 +7,11 @@
      margin-bottom: -5px;
 }*/
 
-/*.topo__side .container .container__img{
+topo__side .container .container__img{
     background: no-repeat center/cover url('../images/desktop/image-header.jpg');
     width: 100%;
     height: 100vh;
-}*/
+}
 
 
 /*.topo__side .container .container__img .titulo h1{

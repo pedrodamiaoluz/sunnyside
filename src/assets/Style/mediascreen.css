@@ -17,10 +17,7 @@
 
     /*Configuração topo__side*/
 
-    .topo__side.container .container__img{
-       width: 100%;
-        
-    }
+
 
     /*.topo__side .container__img .titulo h1{
         
@@ -33,8 +30,9 @@
         transform: translate(var(-50% -50%)); 
         font-size: 30px;
     }*/
-
+ 
     .topo__side .container__leaude{
+        max-width: 500px;
         display: flex;
         flex-direction: column;
         justify-content:center;
