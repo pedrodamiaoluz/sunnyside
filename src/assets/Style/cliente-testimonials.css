@@ -4,10 +4,10 @@
     display: flex;
 }
 
-.cliente__testimonials > .container{
+.cliente__testimonials{
     width: 100%;
     /*padding: 113px 4%;*/
-    background-color: #8e8c8c;
+    background-color: #fff;
 }
 
 .cliente__testimonials .titulo{

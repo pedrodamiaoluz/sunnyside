@@ -35,6 +35,10 @@
     font-weight: 700;
 }
 
+.footer__conteudo nav ul li a:hover{
+    color: #fff;
+}
+
 .footer__conteudo .icon img{
       margin: 40px 20px;
       cursor: pointer;

@@ -18,21 +18,23 @@ body{
 /*Configuração do reader*/
 
 header{
-    
+    /* background-color: #3ebeff; */
+    background-color: red;
+    padding: 20px 2%;
+    width: 100%;
 }
 header > .container{
-    background-color: red;
-    padding: 30px 2%;
     display: flex;
     justify-content: space-between;
     justify-items: center;
+    align-items: center;
 }
 
-.header__logo{
+/* .header__logo{
     font-size: 30px;
     font-weight: 900;
     color: #fff;
-}
+} */
 
 header a{
     text-decoration: none;
@@ -42,21 +44,22 @@ header a{
     transition: .2s;
 }
 
-header a:hover{
-    transform: scale(1.10);
-    color: #fff000;
-    font-weight: 800;
-}
-
 
 header nav ul{
     list-style-type: none;
     margin-left: 45rem;
+    
 }
 
 header nav ul li{
    display: inline-block;
    padding: 10px 20px;
+}
+
+header nav ul li a:hover{
+    transform: scale(1.10);
+    color: #fff000;
+    font-weight: 800;
 }
 
 header .titulo{
@@ -65,10 +68,18 @@ header .titulo{
 
 header .header__button button{
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 12px 20px;
     color: #000;
     font-weight: 600;
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    transition: .2s;
+}
+
+header .header__button a button:hover{
+     background-color: #76ccf7;
+     color: #fff;
+     transform: scale(1.10);
+     font-weight: 800;
 }

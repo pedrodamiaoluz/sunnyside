@@ -1,25 +1,23 @@
 
 /*Configurações do topo side*/
-
-
- /*.topo__side .container__img img{
-     max-width: 100%;
-     margin-bottom: -5px;
-}*/
-
-topo__side .container .container__img{
+.topo__side .container__img{
     background: no-repeat center/cover url('../images/desktop/image-header.jpg');
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+    text-align: center;
+}
+
+.topo__side .container__img img{
+     margin-top: 113px;
 }
 
 
-/*.topo__side .container .container__img .titulo h1{
+.topo__side .container__img .titulo h1{
+    padding-top: 50px;
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
-    padding-top: 8rem;
-}*/
+}
 
 .topo__side .container__leaude{
     display: grid;
@@ -28,35 +26,55 @@ topo__side .container .container__img{
 
 .topo__side .container__leaude .leaude__conteudo{
       background-color: #fff;
-      width: 100%;
+      /* width: 100%; */
       height: 562px;
-      display: flex;
+      padding: 40px 20px;
+      /* display: flex;
       justify-content: center;
       justify-items: center;
-      align-items: center;
-      padding: 40px 20px;
+      align-items: center; */
 }
 
 .container__leaude .leaude__conteudo .leaude{
     background-color: #fff;
     width: 500px;
-    display: flex; 
+    margin: 8rem auto;
+    /* display: flex; 
     flex-direction: column;
-    gap: 20px;
+    gap: 20px; */
 }
 
 .container__leaude .leaude__conteudo .leaude h2{
+    width: 350px;
+    margin: 40px 0px;
     font-size: 30px;
     font-weight: 900;
-    width: 350px;
 }
 
 .container__leaude .leaude__conteudo .leaude p{
     text-align: justify;
 }
 
-.container__leaude .leaude__conteudo .leaude span{
+.container__leaude .leaude__conteudo .leaude .borda__span-1, .borda__span-2, a{
+    margin-top: 40px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
     font-weight: 900;
+    font-size: 16px;
+}
+
+.container__leaude .leaude__conteudo .leaude .borda__span-1:hover{
+    /* border-bottom: 5px solid red; */
+    text-decoration-line: underline; 
+    text-decoration-thickness: 5px; 
+    text-decoration-color: aqua;
+}
+
+.container__leaude .leaude__conteudo .leaude .borda__span-2 .borda a:hover{
+    text-decoration-line: underline; 
+    text-decoration-thickness: 5px; 
+    text-decoration-color: red;   
 }
 
 .container__leaude .leuade__img img{
@@ -69,19 +87,19 @@ topo__side .container .container__img{
     width: 100%;
     height: 550px;
     margin-top: -5px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;   */
 }
 
 .container__leaude .leaude__photography .leaude__graphic-design, .conteudo{
     background-color: transparent;
     width: 400px;
     margin: 20rem 6rem 3rem 6rem;
-    display: flex;
+    /* display: flex;
     flex-direction: column; 
     gap: 20px;
-    
+     */
 }
 
 .container__leaude .leaude__graphic-design{
@@ -89,9 +107,9 @@ topo__side .container .container__img{
     width: 100%;
     height: 550px;
     margin-top: -5px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .leaude__photography h3{
