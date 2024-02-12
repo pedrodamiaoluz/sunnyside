@@ -1,5 +1,9 @@
 /*Configurações do footer*/
 
+footer{
+    padding: 0px 2%;
+}
+
 .footer__conteudo .flex{
     flex-direction: column;
     justify-content: center;
@@ -44,8 +48,8 @@
       cursor: pointer;
 }
 
-.footer__conteudo .icon a{
+/* .footer__conteudo .icon a{
    text-decoration: none;
-}
+} */
 
 

@@ -15,19 +15,21 @@ body{
     margin: 0px auto;
 }
 
+section{
+    padding: 0px 2%;
+}
+
 /*Configuração do reader*/
 
 header{
-    /* background-color: #3ebeff; */
-    background-color: red;
+    background-color: #3ebeff;
     padding: 20px 2%;
-    width: 100%;
+    
 }
-header > .container{
+header > .container{ 
     display: flex;
     justify-content: space-between;
-    justify-items: center;
-    align-items: center;
+    text-align: center;
 }
 
 /* .header__logo{
@@ -53,6 +55,7 @@ header nav ul{
 
 header nav ul li{
    display: inline-block;
+   text-align: center;
    padding: 10px 20px;
 }
 

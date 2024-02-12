@@ -1,5 +1,9 @@
 
 /*Configurações do topo side*/
+/* section.topo__side{
+    padding: 0px 2%;
+} */
+
 .topo__side .container__img{
     background: no-repeat center/cover url('../images/desktop/image-header.jpg');
     width: 100%;
@@ -95,7 +99,8 @@
 .container__leaude .leaude__photography .leaude__graphic-design, .conteudo{
     background-color: transparent;
     width: 400px;
-    margin: 20rem 6rem 3rem 6rem;
+    margin: 22rem auto;
+    /* margin: 20rem 6rem 3rem 6rem; */
     /* display: flex;
     flex-direction: column; 
     gap: 20px;
