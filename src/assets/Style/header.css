@@ -22,11 +22,14 @@ section{
 /*Configuração do reader*/
 
 header{
-    background-color: #3ebeff;
-    padding: 20px 2%;
+    
+    padding: 0px 2%;
     
 }
 header > .container{ 
+    background-color: #3ebeff;
+    padding: 5px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
