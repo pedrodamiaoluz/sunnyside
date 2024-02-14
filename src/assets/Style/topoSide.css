@@ -28,6 +28,10 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.topo__side .container__leaude .leaude-1, .leaude-2{
+    width: 100%;
+}
+
 .topo__side .container__leaude .leaude__conteudo{
       background-color: #fff;
       /* width: 100%; */

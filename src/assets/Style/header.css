@@ -15,31 +15,21 @@ body{
     margin: 0px auto;
 }
 
-section{
-    padding: 0px 2%;
-}
-
 /*Configuração do reader*/
 
 header{
-    
+    background-color: #3ebeff;
     padding: 0px 2%;
-    
 }
 header > .container{ 
-    background-color: #3ebeff;
-    padding: 5px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-/* .header__logo{
-    font-size: 30px;
-    font-weight: 900;
-    color: #fff;
-} */
+header .header__logo{
+    margin-top: 40px;
+} 
 
 header a{
     text-decoration: none;
@@ -52,8 +42,7 @@ header a{
 
 header nav ul{
     list-style-type: none;
-    margin-left: 45rem;
-    
+    margin-left: 40em;
 }
 
 header nav ul li{
@@ -83,7 +72,7 @@ header .header__button button{
     transition: .2s;
 }
 
-header .header__button a button:hover{
+header .header__button button:hover{
      background-color: #76ccf7;
      color: #fff;
      transform: scale(1.10);

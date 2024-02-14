@@ -1,9 +1,4 @@
 /*Configurações do footer*/
-
-footer{
-    padding: 0px 2%;
-}
-
 .footer__conteudo .flex{
     flex-direction: column;
     justify-content: center;
@@ -26,6 +21,7 @@ footer{
 
 .footer__conteudo nav ul{
     list-style-type: none;
+    margin-bottom: 30px;
 }
 
 .footer__conteudo nav ul li{
@@ -43,9 +39,14 @@ footer{
     color: #fff;
 }
 
-.footer__conteudo .icon img{
-      margin: 40px 20px;
+.footer__conteudo .icon i{
+      font-size: 25px;
+      padding: 20px;
       cursor: pointer;
+}
+
+.footer__conteudo .icon i:hover{
+    color: #fff;
 }
 
 /* .footer__conteudo .icon a{
